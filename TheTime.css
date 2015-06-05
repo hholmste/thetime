@@ -1,0 +1,32 @@
+#the_clock {
+	width: 50%;
+	padding-top: 5%;
+	margin: auto;
+}
+
+#clock_face {
+	width: 100%;
+	margin: auto;
+	font-family: Arial;
+	font-size: 3em;
+}
+
+.clock_element {
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	padding: 3px;
+	transition: color 0.8s ease-in;
+}
+
+.inactive {
+	color: #ddd;
+}
+
+.active_time {
+	color: #FF7A00;
+}
+
+.active_message {
+	color: #0295AA;
+}
