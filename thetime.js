@@ -2,7 +2,7 @@ var Time = (function () {
 	var mod = {};
 
 	var face = [
-		"gixyTENqHALFc",//0
+		"gixyTENHALFTc",//0
 		"GhwTWENTYTlhh",//1
 		"OFONEyPxFOURp",//2
 		"OIkjlaASIXoee",//3
@@ -36,7 +36,7 @@ var Time = (function () {
 	var Fifteen_minutes = ["cell_2_1", "cell_3_1", "cell_4_1", "cell_5_1", "cell_6_1", "cell_7_1", "cell_8_1"];
 	var Twenty_minutes = ["cell_1_3", "cell_1_4", "cell_1_5", "cell_1_6", "cell_1_7", "cell_1_8"];
 	var Twentyfive_minutes = ["cell_2_8", "cell_3_8", "cell_4_8", "cell_5_8", "cell_1_3", "cell_1_4", "cell_1_5", "cell_1_6", "cell_1_7", "cell_1_8"];
-	var Half = ["cell_0_8", "cell_0_9", "cell_0_10", "cell_0_11"];
+	var Half = ["cell_0_7", "cell_0_8", "cell_0_9", "cell_0_10"];
 
 	// misc
 	var Good = ["cell_1_0", "cell_2_0", "cell_3_0", "cell_4_0"];
