@@ -71,9 +71,9 @@ var Time = (function () {
 		var to_past = as_to_past(real_minutes);
 		var hours = real_minutes >= 32 ? as_hours((date.getHours() + 1) % 24) : as_hours(date.getHours());
 		var minutes = as_minutes(real_minutes);
-		var am_pm = hours < 12 ? AM : PM;
-
-		window.setTimeout(function(){ activate_number(minutes); }, 2500);
+		var am_pm = date.getHours() < 12 ? AM : PM;
+		
+    window.setTimeout(function(){ activate_number(minutes); }, 2500);
 		window.setTimeout(function(){ activate_message(to_past); }, 3500);
 		window.setTimeout(function(){ activate_number(hours); }, 4500);
 		window.setTimeout(function(){ activate_message(am_pm); }, 5500);
